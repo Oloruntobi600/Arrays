@@ -4,18 +4,6 @@ import java.util.Scanner;
 
 public class ReversingArrays {
 
-
-//    public static void main(String[] args) {
-//        int [] myIntArray  = new int[10];
-//        for (int i=0; i<10; i++) {
-//            myIntArray[i] = i * 10;
-//        }
-//        for (int i=0; i<10; i++) {
-//            System.out.println("Element" + i + " , value is "+ myIntArray[i]);
-//        }
-//        public int[] reverseArray(int[] array){
-//            for (int i=0; i<10; i--){
-//        }
     public static void main(String[] args){
             int [] array = {1,2,3,4,5,6};
             int [] reverseArray = reverseArray(array);
@@ -38,6 +26,7 @@ public class ReversingArrays {
             // reverseArray [i] = 2
             // reverseArray [i] = 1
 
+
         }
         return reverseArray;
     }
@@ -51,4 +40,5 @@ public class ReversingArrays {
 //        }
 //        System.out.println();
     }
+
 }
