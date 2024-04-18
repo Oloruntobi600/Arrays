@@ -10,7 +10,7 @@ public class ReversingArrays {
         System.out.print("Original Array: ");
         printArray(array);
         System.out.print("Reversed Array: ");
-        printArray(reverseArray);
+         printArray(reverseArray);
         }
 
     public static int[] reverseArray(int[] array){
